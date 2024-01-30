@@ -1,0 +1,59 @@
+body{
+    background-color: hsl(290, 80%, 90%);
+align-items: center;
+justify-content: center;
+text-align: center;
+
+}
+
+h1 {
+    box-sizing: border-box;
+margin-top: 18%;
+}
+
+button {
+    background-color: hsla(350, 90%, 52%, 0.883);
+    padding: 9px;
+    color: white;
+    border-color: hsla(350, 83%, 50%, 0.883);
+    box-shadow: 3px 5px 10px hsla(350, 83%, 50%, 0.883);
+    box-sizing: border-box;
+    margin: 5%;
+}
+
+a { text-decoration: none;}
+
+#yesButton, #myButton:hover {
+    cursor:pointer;
+    
+}
+
+#noButton3:hover {
+    position: relative; /*Needed for movement */
+    transition: top 0.3s ease; /* Smooth transition for the movement */
+    transform: translateX(150px);
+}
+
+#noButton4:hover {cursor:no-drop;}
+#noButton2:hover {cursor: help;}
+
+#textToAppear {
+font-size: 4rem;
+    display: none;
+    text-align: center;
+    margin-top: 18%;
+}
+
+#buttonToAppear {
+
+        display: none;
+        text-align: center;
+        margin-top: 2%;
+    }
+
+ #Texttoappear {
+        font-size: 2rem;
+            display: none;
+            text-align: center;
+            margin-top: 18%;
+ }

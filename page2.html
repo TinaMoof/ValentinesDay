@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div id="textToAppear"><b>WHAT DO YOU MEAN NO?<br>Go back and try again!</b></div>
+<div id="Texttoappear"><b>Yaaaaaaaaaaaaaaaaaaaaaaaaaaaay!!</b><br>
+<p>I Love you 	&#x2661</p></div>
+    <h1 id="Mwah">Will you be my Valentine?</h1>
+    <button id="yesButton">Yessss</button>
+    <button id="noButton2">NO</button>
+
+<a href="index.html"><div id="buttonToAppear"><button>Go back</button></div></a>
+
+
+<script>
+  document.getElementById("noButton2").onclick = function() {
+        // Hide the buttons
+        document.getElementById("yesButton").style.display = 'none';
+        document.getElementById("Mwah").style.display = 'none';
+        document.getElementById("noButton2").style.display = 'none';
+
+        // Show the text
+        document.getElementById("textToAppear").style.display = 'block';
+        document.getElementById("buttonToAppear").style.display = 'block';
+    };
+
+    document.getElementById("yesButton").onclick = function() {
+        // Hide the buttons
+        document.getElementById("yesButton").style.display = 'none';
+        document.getElementById("Mwah").style.display = 'none';
+        document.getElementById("noButton2").style.display = 'none';
+        document.getElementById("Texttoappear").style.display = 'block';
+    }
+
+</script>
+<noscript>You dont supprt js? Shame on you!</noscript>
+</body>
+</html>

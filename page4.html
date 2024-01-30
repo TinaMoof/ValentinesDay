@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Choose</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div id="Texttoappear"><b>Yaaaaaaaaaaaaaaaaaaaaaaaaaaaay!!</b><br>
+        <p style="font-size: 1rem;">Can we make heartshaped pizza together??</p></div>
+    <h1 id="Mwah">Will you be my Valentine?</h1>
+    <button id="yesButton">Yes Love, ofc I will be</button>
+    <button id="noButton4">Yes and marry me pls</button>
+
+<script>
+       document.getElementById("yesButton").onclick = function() {
+        // Hide the buttons
+        document.getElementById("yesButton").style.display = 'none';
+        document.getElementById("Mwah").style.display = 'none';
+        document.getElementById("noButton4").style.display = 'none';
+        document.getElementById("Texttoappear").style.display = 'block';
+    }
+
+    document.getElementById("noButton4").onclick = function() {
+        alert("Way too early man, way too early..")
+    };
+
+</script>
+<noscript>You dont supprt js? Shame on you!</noscript>
+</body>
+</html>
