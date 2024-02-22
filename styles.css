@@ -11,6 +11,11 @@ h1 {
 margin-top: 18%;
 }
 
+.buttons  {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 button {
     background-color: hsla(350, 90%, 52%, 0.883);
     padding: 9px;
